@@ -105,6 +105,8 @@ header {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
 }
 .header-main__social {
   display: flex;
@@ -374,6 +376,9 @@ header a .count {
     max-width: 780px;
     white-space: nowrap;
     overflow-x: scroll;
+  }
+  .header-nav__ul {
+    justify-content: flex-start;
   }
   .header-top,
   .header-main {
