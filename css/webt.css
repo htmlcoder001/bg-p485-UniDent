@@ -412,6 +412,12 @@ header a .count {
   .header-main {
     height: 70px;
   }
+  .header-main__logotype > img {
+    max-width: 320px!important;
+  }
+  .header-nav__link {
+    font-size: 16px;
+  }
   .content-box {
     max-width: calc(100% - 22px);
     margin: 0 auto;
@@ -429,6 +435,26 @@ header a .count {
   }
   .header-actions__item:after {
     font-size: 12px;
+  }
+  .header-top {
+    display: none;
+  }
+  .header-main {
+    margin-top: 24px;
+  }
+  .header-main__logotype > img {
+    max-width: 250px!important;
+  }
+  header .language img {
+    max-width: 36px;
+  }
+  .header-main__logotype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header .language {
+    margin-left: 24px;
   }
 }
 
